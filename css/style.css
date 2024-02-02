@@ -4,19 +4,128 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F2F7FE;
+    font-family: 'Lato', sans-serif;
+}
+
+h2, h4{
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
 img{
     max-width: 100%;
     height: auto;
 }
 
+/* container */
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px 0;
+    padding-top: 40px;
 }
 
+/* titles */
+.titles{
+    margin: 30px 0 40px;
+}
+.titles h2{
+    font-size: 37px;
+    letter-spacing: 6px;
+}
+
+.titles .underline{
+    width: 90px;
+    background-color: #549ef8;
+    height: 5px;
+    position: relative;
+    left: 36%;
+}
+
+/* review */
+.review{
+    background-color: #ffffffc4;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 700px;
+}
+
+/* review image */
 .img_container img{
     width: 700px;
+}
+
+/* review text*/
+.text{
+    padding: 10px 30px;
+}
+
+.text h4{
+    margin-top: 15px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
+.text #class{
+    font-size: 20px;
+    margin: 5px 0;
+    color: #549ef8;
+    text-transform: capitalize;
+}
+.text #info{
+    font-size: 16px;
+    margin: 15px 0;
+    color: #99a1a6;
+}
+
+/* buttons*/
+.button_container{
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.button_container button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.button_container button i{
+    color: #5ab7fa;
+}
+
+/* random button */
+#random_btn{
+    margin-top: 20px;
+    padding: 8px 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #e0f1fd;
+    border: 2px solid #549ef8;
+    color: #3c8ff6;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 767px){
+    .container{
+        padding-top: 20px;
+    }
+
+    .review{
+        max-width: 400px;
+        padding: 15px;
+        margin: 0 10px;
+    }
 }
