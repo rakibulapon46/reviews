@@ -29,7 +29,7 @@ export const reviews = [
   },
   {
     id: 5,
-    img: "../img/amg-gtr.jpg",
+    img: "https://i.pinimg.com/originals/ec/31/97/ec31970d4c594f0a020878a33ae4e498.jpg",
     name: "Mercedes-Benz AMG GT R",
     class: "luxury supercar",
     text: "The Mercedes-AMG GT R epitomizes track-focused performance with a handcrafted V8 engine, aggressive aerodynamics, and advanced chassis technology. Its blend of power, precision, and luxury sets new benchmarks in the supercar.",
